@@ -1,0 +1,49 @@
+# This file is a TOML example usage of the TORI scheme
+
+# Tag Groups
+[[tag_groups]]
+name = "Difficulty"
+description = "Tag group for difficulty levels"
+
+[[tag_groups]]
+name = "Category"
+description = "Tag group for subject category"
+
+# Tags
+[[tags]]
+name = "Easy"
+description = "Easy difficulty level"
+group = "Difficulty"
+
+[[tags]]
+name = "Medium"
+description = "Medium difficulty level"
+group = "Difficulty"
+
+[[tags]]
+name = "Hard"
+description = "Hard difficulty level"
+group = "Difficulty"
+
+[[tags]]
+name = "Category A"
+description = "Sample Category A"
+group = "Category"
+
+[[tags]]
+name = "Category B"
+description = "Sample Category B"
+group = "Category"
+
+# References
+[[references]]
+title = "Sample Title 1"
+author = "Lastname, Firstname"
+url = "https://sample-website.com/path/to/book/information"
+tags = ["Easy", "Category A"]
+
+[[references]]
+title = "Sample Title 2"
+author = ["Lastname1, Firstname1", "Lastname2, Firstname2"]
+url = "https://sample-website.com/path/to/article/information"
+tags = ["Medium", "Category B"]
