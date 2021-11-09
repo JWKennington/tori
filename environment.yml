@@ -1,0 +1,15 @@
+name: pytori-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - coverage
+  - matplotlib
+  - networkx
+  - plotly
+  - pytest
+  - pytest-cov
+  - pyyaml
+  - toml
